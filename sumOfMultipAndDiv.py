@@ -1,0 +1,5 @@
+x=int(input())
+n=list(map(int, input().split()))
+n.sort()
+res = (n[0]*n[-2]) + (n[-2]//n[0])
+print(res)
